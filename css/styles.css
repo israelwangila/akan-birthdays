@@ -76,25 +76,3 @@ h4{
   color:red;
 }
 
-.clear{
-  border-radius: 5px;
-  color: #000000;
-  background-color: #FCD116;
-  text-align: center;
-  border: solid 1px #000000;
-  width: 108px;
-  height: 32px;
-  font-size: 13px;
-  box-shadow: 2px 2px #000000;
-}
-
-a:hover{
-  color: #006B3F;
-}
-footer{
-  text-align: center;
-}
-#{
-  text-align: center;
-  color:yellow;
-}
