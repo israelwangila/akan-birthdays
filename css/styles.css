@@ -1,0 +1,100 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-image: url('../images/background.jpg');
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+h1{
+  font-size: 36px;
+  padding-top: 20px;
+  color: #FCD116;
+}
+h4{
+  color: black;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+#year-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#month-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#day-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#get-name{
+  border-radius: 5px;
+  color: #000000;
+  background-color: #FCD116;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  box-shadow: 2px 2px #000000;
+}
+
+#result{
+  text-align: center;
+}
+
+.content{
+  background-color: green;
+  /* height: 1200px; */
+
+  margin-top: 10px;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px yellow;
+  border-radius: 1%;
+}
+#gender{
+  color: black;
+}
+
+.research{
+
+  color:red;
+}
+
+.clear{
+  border-radius: 5px;
+  color: #000000;
+  background-color: #FCD116;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  box-shadow: 2px 2px #000000;
+}
+
+a:hover{
+  color: #006B3F;
+}
+footer{
+  text-align: center;
+}
+#{
+  text-align: center;
+  color:yellow;
+}
