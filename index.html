@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AKAN NAME GENERATOR</title>
+    <link rel="stylesheet" href="css/styles.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/ghana.png" type="img/jpg">
+  </head>
+  <body>
+        <div class="content">
+        <div class="container">
+            <h1>AKAN NAME GENERATOR</h1>
+            <p>
+                <div class="research"> 
+                    <STRONG>
+                        WANT TO GET YOUR NEW BORN BABY A NAME?
+                    </STRONG>
+                </div>     
+                        Just fill in all the details bellow and by one click!! you get a name without a thinkong to hard. its fun right? so lets get to it!! </p>
+            <p>
+                        To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.
+    <form class="myform" onsubmit="return getAkanName()">
+        <label for="year-of-birth">
+            Year:
+                <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value=""  required
+                min="1980" max="2020">
+        </label>
+        <label for="month-of-birth">
+            Month:
+                <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required
+                 min="1" max="12">
+        </label>
+          <label for="day-of-birth">
+            Day:
+                <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required
+                min="1" max="31">
+        </label>
+          <br>
+        <label for="gender">
+            <div id ="gender "><p>GENDER: </p>
+                 Male
+                    <input id="male-input" type="radio" name="gender" value="male" required>
+                Female
+                     <input id="female-input" type="radio" name="gender" value="female" required>
+            </div>
+        </label>
+          <br><br>
+                    <input id="get-name" type="submit" name="" value="Generate name">
+          <br><br>
+    </form>
+    <form onsubmit="return clearInput()">
+                    <input class="clear" type="submit" value="Clear input">
+    </form>
+
+
+        <h4 id = display-name><strong>YOUR AKAN NAME:</strong></h4>
+            <p id="result"></p>
+            <div id="yoyo">
+        <script src="script/script.js" ></script>
+        </div>
+      </div> 
+            <div id="desctiption">
+                <strong>
+                    ##This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, which are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+                </strong>
+            </div> 
+            <footer>
+                copyright &copy; izra(israel) Designs.<br> 2020
+            </footer>
+    </div>
+  </body>
+</html>
