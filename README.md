@@ -29,3 +29,9 @@
 > The application matches the day of the week with a specific Akan Name and outputs it to the user with a personalized message.
 
 - NB : `All input should be in Numbers`
+
+## Technologies Used
+- html
+ - css
+ - javascript
+ 
