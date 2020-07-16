@@ -18,7 +18,7 @@
 
 ## Deployment
 
-- You can vist the site directly by clicking [HERE]()
+- You can vist the site directly by clicking [HERE](https://israelwangila.github.io/akan-birthdays/.)
 - To view the source codes on github click [HERE]()
 
 ## BDD
