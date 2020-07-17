@@ -4,6 +4,9 @@ body{
   color: white;
   font-size: 17px;
   text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover
 }
 
 h1{
@@ -16,7 +19,7 @@ h4{
 }
 
 .container{
-  width: 80%;
+  width: 20%;
   margin: auto;
 }
 
@@ -59,11 +62,12 @@ h4{
 
 .content{
   background-color: green;
-  /* height: 1200px; */
+  opacity: 0.5;
+  /* height: 600px; */
 
-  margin-top: 10px;
-  margin-bottom: auto;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: ;
+  padding-bottom: 0px;
   box-shadow: 5px 5px yellow;
   border-radius: 1%;
 }
