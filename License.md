@@ -1,4 +1,4 @@
-# HELLOW-WORLD
+# AKAN NAME GENERATOR
 MIT License
 
 Copyright (c) [2020] [israel wangila]
